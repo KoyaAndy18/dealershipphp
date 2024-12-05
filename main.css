@@ -1,0 +1,81 @@
+.col-12 {
+    background-color: #007BFF; /* Set your desired background color */
+    color: #fff; /* Set your desired text color */
+    padding: 10px; 
+    height: 38px;
+
+}
+
+.navbar {
+    padding: 10px;
+    background-color: white; /* Change the background color to white */
+    height: 120px;
+    border: 1px solid black;
+
+  }
+  .logo {
+    background-image: url('./images/carf2.png');
+    background-size: contain; /* Adjust as needed */
+    background-repeat: no-repeat;
+    width: 300px; /* Adjust the width as needed */
+    height: 150px; /* Adjust the height as needed */
+    margin-left: 350px;
+    margin-top: -85px;
+  }
+  .mgaboton {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    padding: 10px;
+    
+  }
+a {
+    color: black;
+}
+
+body {
+  background-image: url('./images/driver.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+}
+
+
+.text-overlay {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+  font-family: Arial, sans-serif !important;
+  z-index: 1;
+  margin-left: 970px;
+  margin-top: 10px;
+}
+
+input[type="text"], textarea {
+  color: black;
+}
+input[type="email"], textarea {
+  color: black;
+}
+.container {
+  display: flex;
+  align-items: center;
+  height: 100vh; /* Adjust height as needed */
+  margin-top: 8%;
+}
+
+.ecf {
+  display: flex;
+  flex-direction: column;
+}
+
+.ecffont {
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.ecfsubmit {
+  background-color: black;
+}
+
